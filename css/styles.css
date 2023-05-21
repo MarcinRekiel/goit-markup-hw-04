@@ -1,0 +1,300 @@
+body {
+  font-family: "Roboto", "Segoe UI", "Tahoma", "Verdana", sans-serif;
+  color: #212121;
+  width: 1600px;
+}
+:root {
+  --color-text: #757575;
+  --color-heading: #212121;
+}
+p,
+a,
+h1,
+h2,
+h3,
+ul,
+figure,
+figcaption {
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 1600px;
+  padding: 0px 215px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+img {
+  display: block;
+}
+
+/* --------------------------------------------------menu-header-------------------------------------------------------- */
+header {
+  border-bottom: 1px solid #ececec;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.menu a:hover,
+.menu a:focus {
+  color: #2196f3;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: #2196f3;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+}
+.menu .logo span {
+  color: #000000;
+}
+.agencja {
+  color: #212121;
+  width: 53px;
+  height: 16px;
+  margin-left: 93px;
+}
+.portfolio {
+  color: #212121;
+  width: 53px;
+  height: 16px;
+  margin-left: 46px;
+}
+.contact {
+  color: #212121;
+  width: 51px;
+  height: 16px;
+  margin-left: 46px;
+}
+.menu .mail {
+  color: #757575;
+  width: 135px;
+  height: 16px;
+  margin-left: 371px;
+}
+.menu .tel {
+  color: #757575;
+  width: 110px;
+  height: 16px;
+  margin-left: 50px;
+}
+/* --------------------------------------------------footer-------------------------------------------------------- */
+footer {
+  background: #2f303a;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address a:hover,
+.address a:focus,
+.address p:hover,
+.address p:focus {
+  color: #2196f3;
+}
+.address .logo {
+  color: #2196f3;
+}
+.address .logo span {
+  color: #f3f0f0;
+}
+.address p {
+  color: #ffffff;
+  width: 256px;
+  height: 21px;
+  margin-top: 20px;
+}
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+  margin-top: 9px;
+}
+/* -----------------------------------------------------mane page------------------------------------------------------ */
+
+.header {
+  color: #ffffff;
+  background: #2f303a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 210px;
+}
+.header h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  height: 120px;
+  margin: 0px;
+}
+.header button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  cursor: pointer;
+  border-style: none;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
+.loremipsum {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+.loremipsum p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+.loremipsum h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-heading);
+  padding-bottom: 10px;
+}
+.item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.doit {
+  display: flex;
+  justify-content: space-between;
+}
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-heading);
+  padding-bottom: 50px;
+}
+.team p {
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+  background-color: #ffffff;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-heading);
+  line-height: 1.17;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+}
+.team figcaption {
+  background: #ffffff;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  padding: 30px 24px;
+}
+.bg {
+  background-color: #f5f4fa;
+  width: 1600px;
+}
+
+/* ---------------------------------------------------porfolio-------------------------------------------------- */
+.we-do-it {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  background: #ffffff;
+  margin-bottom: 50px;
+}
+.we-do-it button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  border-style: none;
+  padding: 6px 22px;
+}
+.we-do-it button:hover,
+.we-do-it button:focus {
+  color: #ffffff;
+  background: #2196f3;
+}
+.made-jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.made-jobs h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: var(--color-heading);
+  padding-bottom: 4px;
+}
+.made-jobs p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+.made-jobs-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.made-jobs-item figcaption {
+  background: #ffffff;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
