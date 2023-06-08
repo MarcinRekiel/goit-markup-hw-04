@@ -111,7 +111,8 @@ header {
 .menu .tel svg {
   margin-right: 6px;
 }
-.menu div:hover {
+.menu div:hover,
+.menu div:focus {
   fill: #2196f3;
   stroke: #2196f3;
 }
@@ -195,8 +196,12 @@ div p {
   align-items: center;
   padding-top: 200px;
   padding-bottom: 210px;
-  background: rgba(47, 48, 58, 0.4);
-  background-image: url(../images/header_bg.image.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/header_bg.image.jpg");
 }
 .header h1 {
   font-weight: 900;
@@ -377,6 +382,8 @@ div p {
 .we-do-it button:focus {
   color: #ffffff;
   background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .made-jobs {
   display: flex;
@@ -408,5 +415,9 @@ div p {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   padding: 20px 24px;
+}
+.made-jobs > li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* -------------------------------------------------------------------------------------------------------------- */
